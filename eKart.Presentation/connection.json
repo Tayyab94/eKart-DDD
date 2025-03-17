@@ -1,0 +1,12 @@
+{
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=.;Database=TechKeedaDb;Trusted_Connection=True;MultipleActiveResultSets=true",
+      "TestConnection": "Server=.;Database=TechKeedaDb_Test;Trusted_Connection=True;MultipleActiveResultSets=true"
+    },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
