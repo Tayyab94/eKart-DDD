@@ -19,4 +19,8 @@
     <ProjectReference Include="..\eKart.Infrastructure\eKart.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>

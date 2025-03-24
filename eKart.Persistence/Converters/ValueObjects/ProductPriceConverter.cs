@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace eKart.Presentation.Converters.ValueObjects
+namespace eKart.Persistence.Converters.ValueObjects
 {
     public sealed class ProductPriceConverter : ValueConverter<ProductPrice, decimal>
     {

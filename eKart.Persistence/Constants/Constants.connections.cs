@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eKart.Presentation.Constants
+namespace eKart.Persistence.Constants
 {
     public static partial class Constants
     {

@@ -11,6 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\eKart.Infrastructure\eKart.Infrastructure.csproj" />
     <ProjectReference Include="..\eKart.Persistence\eKart.Persistence.csproj" />
     <ProjectReference Include="..\eKart.Presentation\eKart.Presentation.csproj" />

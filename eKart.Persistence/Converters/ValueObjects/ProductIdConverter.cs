@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eKart.Presentation.Converters.ValueObjects
+namespace eKart.Persistence.Converters.ValueObjects
 {
     public sealed class ProductIdConverter :ValueConverter<ProductId, Guid>
     {

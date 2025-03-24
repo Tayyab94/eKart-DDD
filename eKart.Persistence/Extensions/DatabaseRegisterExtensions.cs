@@ -1,5 +1,5 @@
 ﻿using eKart.Infrastructure.Options;
-using eKart.Presentation.Framework;
+using eKart.Persistence.Framework;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eKart.Presentation.Extensions
+namespace eKart.Persistence.Extensions
 {
     public static class DatabaseRegisterExtensions
     {

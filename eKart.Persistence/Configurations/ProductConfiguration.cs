@@ -1,6 +1,6 @@
 ﻿using eKart.Domain.products;
 using eKart.Domain.Products.ValueObjects;
-using eKart.Presentation.Converters.ValueObjects;
+using eKart.Persistence.Converters.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static eKart.Presentation.Constants.Constants;
+using static eKart.Persistence.Constants.Constants;
 
-namespace eKart.Presentation.Configurations
+namespace eKart.Persistence.Configurations
 {
     internal sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
     {

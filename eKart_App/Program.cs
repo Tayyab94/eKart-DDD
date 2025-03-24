@@ -1,8 +1,9 @@
 using eKart.Infrastructure.Extensions;
-using eKart.Presentation.Extensions;
+using eKart.Persistence.Extensions;
+using eKart_App.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.RegisterOptions().RegisterDatabase();
+builder.Services.RegisterControllers().RegisterOptions().RegisterDatabase();
 
 var app = builder.Build();
 

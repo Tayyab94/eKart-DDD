@@ -1,4 +1,4 @@
-﻿namespace eKart.Presentation.Framework
+﻿namespace eKart.Persistence.Framework
 {
     public class EkartDbContext
     {

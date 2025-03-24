@@ -4,8 +4,8 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using static eKart.Presentation.Constants.Constants.connections;
-namespace eKart.Presentation.Framework
+using static eKart.Persistence.Constants.Constants.connections;
+namespace eKart.Persistence.Framework
 {
     public class EkartDbContextFactory : IDesignTimeDbContextFactory<EKartContext>
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 
-namespace eKart.Presentation.Framework
+namespace eKart.Persistence.Framework
 {
     public sealed class EKartContext : DbContext
     {
